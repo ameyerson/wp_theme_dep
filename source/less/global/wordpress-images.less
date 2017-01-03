@@ -1,0 +1,90 @@
+/*Wordpress Image Classes*/
+
+.global article.page {
+	img {
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto; 
+		margin: 2em auto;
+		max-width: 100%;
+		height: auto;
+	}
+	img.alignright { 
+		float: right; 
+		margin: 0 0 1em 1em; 
+	}
+	img.alignleft { 
+		float: left; 
+		margin: 0 1em 1em 0; 
+	}
+
+	.alignright { 
+		float: right;
+		margin: 0; 
+	}
+	.alignleft { 
+		float: left; 
+		margin: 0;
+	}
+	.alignnone,
+	div.alignnone {
+		clear: both;
+	}
+	.aligncenter,
+	div.aligncenter {
+		display: block;	
+		margin-left: auto; 
+		margin-right: auto;
+		clear: both;
+	}
+
+	.wp-caption {
+		max-width: 100%;
+		border: 1px solid #ddd;	
+		text-align: center;	
+		background-color: #d4d4d4; 
+		padding: 5px 3px 10px;
+		// max-width: 96%;
+	}
+
+	.wp-caption a {
+		border: none;
+	}
+	.wp-caption {
+		margin: 2em auto;
+	}
+
+	.wp-caption img {
+	    border: 0 none;
+	    height: auto;
+	    margin: 0 auto;
+	    width: 100%;
+	    max-width: 100%;
+	    padding: 0;
+	    width: auto;
+	}
+
+	.wp-caption .wp-caption-text {
+
+		margin-top: 1em;
+		font-size: .7em;
+		font-style: italic;
+
+		font-size: 0.85em; 
+		line-height: 1.2em;
+		padding: 0 4px 5px; 
+		margin: 0;
+	}
+	.wp-caption.alignnone {
+	    margin: 5px 20px 20px 0;
+	}
+
+	.wp-caption.alignleft {
+	    margin: 5px 20px 20px 0;
+	}
+
+	.wp-caption.alignright {
+	    margin: 5px 0 20px 20px;
+	}
+
+}
